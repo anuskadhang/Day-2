@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="/action.php" method="post">
+
+        <label for="studentname">Student Name:</label>
+        <input type="text" id="studentname" name="studentname"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="Enter Password"><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="number" name="phone"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <label>Select Course:</label>
+        <select name="course">
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="fullstack">Full Stack Development</option>
+        </select><br><br>
+
+        <label>Skills:</label>
+        <input type="checkbox" name="skill" value="html"> HTML
+        <input type="checkbox" name="skill" value="css"> CSS
+        <input type="checkbox" name="skill" value="javascript"> JavaScript<br><br>
+
+        <label>Address:</label><br>
+        <textarea name="address" rows="4" cols="30"></textarea><br><br>
+
+        <label>Upload Resume:</label>
+        <input type="file" name="resume"><br><br>
+
+        <label>Age:</label>
+        <input type="number" name="age" min="18" max="100"><br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob"><br><br>
+
+        <label>Portfolio Website:</label>
+        <input type="url" name="website"><br><br>
+
+        <button type="submit">Enroll Now</button>
+
+    </form>
+
+
+
+</body>
+
+</html>
