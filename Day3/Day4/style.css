@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+header {
+    background: white;
+    border-bottom: 2px solid black;
+    padding: 20px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    background: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom: 2px solid black;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-top: 10px;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+}
+
+.projects,
+.experience,
+.education {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.projects h2,
+.experience h2,
+.education h2 {
+    margin-bottom: 15px;
+}
+
+.projects ul,
+.education ul {
+    padding-left: 20px;
+}
+
+.projects li,
+.education li {
+    margin-bottom: 10px;
+}
+
+.experience h3 {
+    margin-top: 20px;
+}
+
+.experience p {
+    margin: 10px 0;
+}
+
+.experience a {
+    text-decoration: none;
+    color: black;
+}
+
+.reviews {
+    padding: 40px;
+}
+
+.review-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.review {
+    border: 2px solid black;
+    padding: 20px;
+    width: 30%;
+}
+
+.review h4 {
+    margin-top: 15px;
+}
+
+.review span {
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+}
+
+button {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: gray;
+}
+
+footer {
+    border-top: 2px solid black;
+    text-align: center;
+    padding: 20px;
+}
